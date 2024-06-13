@@ -28,3 +28,25 @@ export const initialSignUpForm = {
     email:"",
     password:""
 }
+export const initialLoginForm = {
+    email:"",
+    password:""
+}
+
+export const LoginformController = 
+[    
+    {
+        name:'email',
+        label:' Email',
+        placeholder:'Please enter your email',
+        componentType: 'input',
+        type:'email'
+    },
+    {
+        name:'password',
+        label:' Password',
+        placeholder:'Please enter your password',
+        componentType: 'input',
+        type:'password'
+    }
+]
